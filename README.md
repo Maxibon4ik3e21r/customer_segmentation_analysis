@@ -3,7 +3,7 @@
 Analysis of 200 mall customers using K-Means clustering and linear regression.
  
 ## Data
-`Mall_Customers.csv` — Age, Gender, Annual Income (k$), Spending Score (1-100).
+`Mall_Customers.csv` > Age, Gender, Annual Income (k$), Spending Score (1-100).
  
 ## What I did
 1. **Clustering (K-Means)** — grouped customers into 5 segments based on income and spending score. Picked k=5 using the elbow method and silhouette score (0.555).
@@ -22,7 +22,7 @@ Analysis of 200 mall customers using K-Means clustering and linear regression.
 **Regression:** weak fit (R² ≈ 0.11). Age was a significant predictor, Income was not — meaning the relationship isn't linear. This is why clustering worked better than regression for this data.
  
 ## Files
-- `customer_segmentation_analysis.ipynb` — full notebook with code, plots, and output
+- `customer_segmentation_analysis.ipynb` > full notebook with code, plots, and output
 - `cluster_summary.csv`
 
 
